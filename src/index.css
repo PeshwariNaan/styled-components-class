@@ -7,4 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.title {
+  text-align: center; 
+  text-transform: capitalize;
+}
+
+.btn {
+  background: #645cff;
+  color: #fff;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: .25rem;
+  display: block;
+  width: 200px;
+  margin: 1rem auto;
+}
+
 
