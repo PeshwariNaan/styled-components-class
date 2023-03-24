@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+    :root {
   --primary: #645cff;
   --secondary: green;
   --white: #fff;
@@ -13,23 +16,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #f2f4f8;
 }
-
-.title {
-  text-align: center; 
+.btn {
+  background: #645cff;
+  color: #fff;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
   text-transform: capitalize;
+  padding: .25rem;
+  display: block;
+  width: 200px;
+  margin: 1rem auto;
 }
+`;
 
-.bg-grey {
-background: grey;
-}
-
-.title {
-  text-transform: uppercase;
-  color: red;
-}
-
-/* @media screen and (min-width: ) { //Here we need the 'screen and' (double check this)
-  
-} */
-
-
+export default GlobalStyles;
