@@ -5,6 +5,8 @@ const ComplexTitle = ({ title }) => {
     <Wrapper>
       <h1>{title}</h1>
       <div className="underline"></div>
+      <div className="underlineHipster"></div>
+      <h2 className="title">Random from global styles</h2>
     </Wrapper>
   );
 };
@@ -17,8 +19,18 @@ const Wrapper = styled.div`
   .underline {
     width: 5rem;
     height: 0.25rem;
-    background: #645cff;
+    background: var(--primary);
     margin: 2rem auto;
+  }
+
+  .underlineHipster {
+    width: 5rem;
+    height: 0.25rem;
+    background: var(--secondary);
+    margin: 2rem auto;
+  }
+  .title {
+    color: blue;
   }
 `;
 
