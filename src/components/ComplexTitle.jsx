@@ -5,8 +5,6 @@ const ComplexTitle = ({ title }) => {
     <Wrapper>
       <h1>{title}</h1>
       <div className="underline"></div>
-      <div className="underlineHipster"></div>
-      <h2 className="title">Random from global styles</h2>
     </Wrapper>
   );
 };

@@ -1,11 +1,11 @@
 import styled from 'styled-components/macro';
-import { DefaultButton } from './components/Buttons.styles';
-import Form from './components/Form';
+import List from './components/List';
+import Products from './components/Products';
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <Form />
+      <Products />
     </div>
   );
 }
