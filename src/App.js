@@ -1,10 +1,11 @@
-import styled from 'styled-components';
-import Loading from './components/Loading';
+import styled from 'styled-components/macro';
+import { DefaultButton } from './components/Buttons.styles';
+import Form from './components/Form';
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <Loading />
+      <Form />
     </div>
   );
 }
